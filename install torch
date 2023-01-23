@@ -1,0 +1,5 @@
+Head on to PyTorch's website to find the installation command for your environment. For me, as CUDA 10.2 is one of the older options, I've searched the 
+commands through the previous versions. Although I was using a conda environment, using the conda installation commands did not work for me but pip install did. This could be a case-by-case situation.
+
+What worked:
+pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
